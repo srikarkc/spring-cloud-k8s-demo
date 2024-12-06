@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo
+  cloud:
+    kubernetes:
+      config:
+        enabled: true
+      secrets:
+        enabled: true
+      discovery:
+        enabled: true
+
+server:
+  port: 8080
